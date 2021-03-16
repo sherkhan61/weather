@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.card {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    margin-bottom: 10px;
+    margin-top: 1%;
+    background: transparent;
+    background-size: cover;
+    padding: 20px;
+}
+.title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 30px;
+}
+.search-form {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input {
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+        border: 1px solid #fff;
+        background: transparent;
+        color: #fff;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    button {
+        width: 8%;
+        height: 50px;
+        padding: 5px;
+        border: none;
+        border-radius: 10px;
+        background: linear-gradient(45deg, #8e0e00 30%, #1f1c18 90%);
+        font-weight: 400;
+        font-size: 18px;
+        color: #fff;
+        cursor: pointer;
+        &:hover {
+            background: linear-gradient(45deg, #ffaf8d 30%, #ffc3a0 90%);
+            color: #000;
+        }
+    }
+}
