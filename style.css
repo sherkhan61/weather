@@ -1,0 +1,135 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(97, 99, 230) 0%,
+    rgb(66, 47, 235) 100.2%
+  );
+  border-radius: 15px;
+  box-shadow: rgba(60, 80, 399, 0.9) 0 7px 89px 0;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-weight: 900;
+  font-size: 45px;
+}
+h2 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+h3 {
+  font-size: 14px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  margin: 40px auto 40px auto;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  max-width: 550px;
+  text-align: center;
+  background: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+ul {
+  margin: 0 auto;
+
+  text-align: center;
+
+  padding-left: 0;
+}
+.today {
+  font-size: 15px;
+}
+.col-5 {
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: right;
+}
+.col-7 {
+  padding-top: 55px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.temp-today {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+.weather {
+  font-size: 28px;
+  padding-top: 5px;
+  text-transform: capitalize;
+}
+.celcius {
+  text-decoration: none;
+  padding-top: -10px;
+  color: rgb(153, 179, 233);
+}
+.fahr {
+  text-decoration: none;
+  color: rgb(153, 179, 233);
+}
+.d1minmax {
+  font-size: 12px;
+}
+
+.real-feel {
+  font-style: italic;
+  font-size: 13px;
+}
+.min-max {
+  font-size: 13px;
+}
+.humidity {
+  font-size: 13px;
+}
+.wind {
+  font-size: 13px;
+}
+
+.temp-show {
+  background-color: rgba(255, 255, 255, 0.082);
+  margin: 20px 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.weather-forecast {
+  background-color: rgba(255, 255, 255, 0.082);
+  margin: 10px;
+
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+.icon-forecast {
+  padding-top: 30px;
+}
+.weather-forecast-temperatures {
+  font-size: 12px;
+  margin-top: 7px;
+}
+.weather-forecast-date {
+  margin-bottom: 7px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+.checkout {
+  margin-top: 5px;
+  color: rgb(82, 31, 224);
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
